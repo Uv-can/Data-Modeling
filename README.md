@@ -23,3 +23,13 @@
     The schema used for this exercise is the Star Schema: 
     There is one main fact table containing all the measures associated to each event (user song plays),
     and 4 dimentional tables, each with a primary key that is being referenced from the fact table.
+## How to run the Project
+    
+    1) Run in console
+    python create_tables.py
+    
+    2) Used test.ipynb Jupyter Notebook to interactively verify that all tables were created correctly.
+   
+    3) Run etl in console, and verify results:
+    
+    python etl.py
