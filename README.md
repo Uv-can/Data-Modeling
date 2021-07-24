@@ -1,4 +1,6 @@
-# Postgres ETL
+#DATA MODELING
+
+## Postgres ETL
     This project consists on putting into practice the following concepts:
     
     - Data modeling with Postgres,
