@@ -108,7 +108,7 @@ def main():
     """Function used to extract, transform all data from song and user activity logs and load it into a PostgreSQL DB
         Usage: python etl.py
     """
-    conn = psycopg2.connect("host=my-postgres.cwzzbu8tu7mw.us-east-2.rds.amazonaws.com dbname=postgres user=postgres password=admin1234")
+    conn = psycopg2.connect("host=my-postgres.cwzzbu8tu7mw.us-east-2.rds.amazonaws.com")
     cur = conn.cursor()
 
     process_data(cur, conn, filepath='data/song_data', func=process_song_file)
